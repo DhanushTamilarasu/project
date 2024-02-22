@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budgets: Personal Finance Management</title>
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="icon_logo.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/templatemo-topic-listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="Budgets.css">
+    <script src="budgets.js"></script>
+</head>
+
+<body class="dashboard">
+    
+
+    <div class="sidenav">
+        <div class="brand-logo"><a class="full-logo" href="index.html"><img src="icon_logo.jpeg" alt="" width="25px" style="border-radius: 30px;"></a>
+        </div>
+        <a href="index.html" target="_blank">
+        <span>
+            <i class="fa fa-home"></i>
+        </span>
+
+        <a href="wallet.html"><span>
+            <i class="	fa fa-credit-card"></i>
+        </span>
+
+        <a href="budgets.html">
+        <span> <i class="fa fa-money"></i></span>
+        </a>
+
+        <a href="goals.html">
+        <span><i class="fa fa-bullseye"></i></span>
+        </a>
+
+        <a href="profile.html">
+        <span><i class="fa fa-user"></i></span>
+        </a>
+                    
+        <a href="analytics.html">
+        <span><i class="fa fa-line-chart"></i></span>
+        </a>
+                    
+        <a href="support.html">
+        <span><i class="fa fa-handshake-o"></i></span>
+        </a>          
+                    
+        <!-- <a href="affiliates.html">
+        <span> <i class="fa fa-link"></i></span>
+        <span class="nav-text">Affiliates</span>
+        </a> -->
+                    
+        <a href="settings.html">
+        <span><i class="fa fa-cogs"></i></span>
+        </a>            
+      </div>
+
+        <div class="container"style="margin-left: 6%;">
+            <div class="row">
+                <div class="topnav"> 
+                    <div class="ico"><br>
+                        <a href="index.css"><i class="fa fa-user" style="width: 40px; font-size:25px; color: rgb(7, 7, 7);"></i></a>
+                        <i class="fa fa-bell-o" style="width: 50px; font-size:25px;color:rgb(7, 7, 7)"></i>                       
+                        <img src="download.jpeg" alt="" onclick="myFunction()" style="font-size: 25px; width: 30px;margin-top: -13px;  border-radius: 25px;">
+                    </div>
+                    <div class="search-container">
+                        <form action="">
+                          <input type="text" placeholder="Search.." name="search" style="border-style: groove;">
+                        <button type="submit" style="width: 40px;"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-body">
+            <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col">
+                        <div class="page-title">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-4">
+                                    <div class="page-title-content">
+                                        <h3>Budgets</h3>
+                                        <p class="mb-2">Welcome to Finance Management</p>
+                                    </div>
+                                </div><br><hr>
+                                <div class="col-auto">
+                                    <div class="breadcrumbs"><a href="index.html">Home </a> &rArr;
+                                        <span><i class="fa fa-home"></i></span>
+                                        <a href="Budgets.html">Budgets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- <div class="container"> -->
+                    <div class="container overflow-hidden">
+                        <div class="row gy-5">
+                          <div class="col-6">
+                            <div class="p-3 border" id="color" style="border-radius: 10px;">
+                                <h4>Grocery</h3>
+                                <span>Overtime</span>
+                                <p>₹: 1458.30</p>
+                                
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="p-3 border" id="color" style="border-radius: 10px;">
+                                <h4>Cloths</h3>
+                                <span class="show-time">Week</span>
+                                <p>₹: 1458.30</p>
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="p-3 border"id="color" style="border-radius: 10px;">
+                                <h4>Transportation</h3>
+                                <span class="show-time">Month</span>
+                                <p>₹: 1458.30</p>
+
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="p-3 border" id="color" style="border-radius: 10px;">
+                                <h4>Education</h3>
+                                <span class="show-time">Month</span>
+                                <p>₹: 1458.30</p>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                <!-- </div> -->
+                <hr>
+                <!-- <div class="container"> -->
+                <div class="container overflow-hidden">
+                    <div class="row gx-5">
+                      <div class="col">
+                       <div class="p-3 border bg-white" style="border-radius: 10px;">
+                        <h5 class="mb-0">Add new budget</h5>
+                        <a href="add-new-account.html">
+                            <i class="fa fa-square me-0"></i>
+                        </a>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- </div> -->
+<hr>
+
+                <!-- <div class="container"> -->
+                        <div class="col-xl-10" style="margin-left: 2%;">
+                            <div class="tab-content budgets-tab-content">
+                                <div class="tab-pane show active" id="a1">
+                                    <div class="budgets-tab-title">
+                                        <h3>Grocery</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <span>Spend</span>
+                                                            <h4>$1458.30</h3>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <span>Budget</span>
+                                                            <h4>$1458.30</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 25%;" role="progressbar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between mt-2">
+                                                        <span>25%</span>
+                                                        <span>75%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <hr>
+                                        <div class="col-xxl-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                                            <div class="budget-widget">
+                                                                <p>Last Month</p>
+                                                                <h4>₹ 42,678</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                                            <div class="budget-widget">
+                                                                <p>Expenses</p>
+                                                                <h4>₹ 1,798</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                                            <div class="budget-widget">
+                                                                <p>Taxes</p>
+                                                                <h4>₹ 255.25</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                                            <div class="budget-widget">
+                                                                <p>Debt</p>
+                                                                <h4>₹ 365,478</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <hr>
+                                        <div class="col-xl-12">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h4 class="card-title">Budget Period </h4>
+                                                </div>
+                                                <div class="card-body">
+                                                    <canvas id="myChart" style="width:100%;max-width:600px; margin-left: 15%;" ></canvas>
+
+                                                    <script>
+                                                    var xValues = ["Jan", "Feb", "Mar", "Apirl", "May","June","July","Aug","Sep","Oct","Nov","Dec"];
+                                                    var yValues = [35, 50, 37, 45, 25,50,35,28,23,32,29,20];
+                                                    var barColors = [
+                                                      "#fc9d06",
+                                                      "#fc0006",
+                                                      "#2b5797",
+                                                      "#e8c3b9",
+                                                      "#ddd4b7",
+                                                      "#3ceef0","#1e7227","#dd16b7","#9f1553","#dda981","#ddee81"
+                                                    ];
+                                                    
+                                                    new Chart("myChart", {
+                                                      type: "pie",
+                                                      data: {
+                                                        labels: xValues,
+                                                        datasets: [{
+                                                          backgroundColor: barColors,
+                                                          data: yValues
+                                                        }]
+                                                      },
+                                                      options: {
+                                                        title: {
+                                                          display: true,
+                                                          text: "Amount spend for past year"
+                                                        }
+                                                      }
+                                                    });
+                                                    </script>                                                
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <hr>
+                    <div class="footer">
+
+                        <div class="container" style="width: 100%; margin-left: 1%;">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="copyright">
+                                        <p style="font-size: 15px;">© Copyright <span style="color: brown;">Date:</span>
+                                            <script>
+                                                var Currentdate = new Date().getDate()
+                                                document.write(Currentdate)
+                                            </script>-
+                                            <span style="color: brown;">Year :</span>
+                                            <script>
+                                                var CurrentYear = new Date().getFullYear()
+                                                document.write(CurrentYear)
+                                            </script>
+                                            <a href="#">Stock Market</a> I All Rights Reserved
+                                        </p>
+                                    </div>
+                                </div>
+                                <footer class=" content-body">
+                                <div class="container-fluid" style="padding: 2%; display:block;">
+                                <div class="col-lg-9">
+                                    <div class="social-icon" style="margin-left: 46%;">
+                                        <ul style="list-style-type: square;" >
+                                            <a href="#"><i class="fa fa-facebook" style=" width:40px;font-size:  20px;"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" style="width: 40px; font-size: 20px;"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin" style=" font-size: 20px;width: 40px;"></i></a>
+                                            <a href="#"><i class="fa fa-youtube" style="width: 40px; font-size: 20px;"></i></a>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div> 
+</body>
+
+</html>

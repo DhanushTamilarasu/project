@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wallet: Personal Finance Management</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="icon_logo.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/templatemo-topic-listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <link rel="stylesheet" href="wallet.css">
+    <script src="wallet.js"></script>
+    
+</head>
+
+<body class="dashboard">
+    <div class="sidenav">
+        <div class="brand-logo"><a class="full-logo" href="index.html"><img src="icon_logo.jpeg" alt="" width="25px" style="border-radius: 30px;"></a>
+        </div>
+        <a href="index.html" target="_blank">
+        <span>
+            <i class="fa fa-home"></i>
+        </span>
+
+        <a href="wallet.html"><span>
+            <i class="	fa fa-credit-card"></i>
+        </span>
+
+        <a href="budgets.html">
+        <span> <i class="fa fa-money"></i></span>
+        </a> 
+
+        <a href="goals.html">
+        <span><i class="fa fa-bullseye"></i></span>
+        </a> 
+
+        <a href="profile.html">
+        <span><i class="fa fa-user"></i></span>
+        </a>
+                    
+        <a href="analytics.html">
+        <span><i class="fa fa-line-chart"></i></span>
+        </a>
+                    
+        <a href="support.html">
+        <span><i class="fa fa-handshake-o"></i></span>
+        </a>          
+                    
+        <!-- <a href="affiliates.html">
+        <span> <i class="fa fa-link"></i></span>
+        <span class="nav-text">Affiliates</span>
+        </a><br> -->
+                    
+        <a href="settings.html">
+        <span><i class="fa fa-cogs"></i></span>
+        </a>            
+      </div>
+      <div class="container" style="margin-left: 6%;">
+
+        <div class="row">
+            <div class="topnav"> 
+                <div class="ico"><br>
+                    <a href="index.css"><i class="fa fa-user" style="width: 40px; font-size:25px; color: rgb(7, 7, 7);"></i></a>
+                    <i class="fa fa-bell-o" style="width: 50px; font-size:25px;color:rgb(7, 7, 7)"></i>                       
+                    <img src="download.jpeg" alt="" onclick="myFunction()" style="font-size: 25px; width: 30px;margin-top: -13px;  border-radius: 25px;">
+                </div>
+                <div class="search-container">
+                    <form action="">
+                      <input type="text" placeholder="Search.." name="search" style="border-style: groove;">
+                    <button type="submit" style="width: 40px;"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+            </div>
+        </div>
+                
+        <div class="content-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-title">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-4">
+                                    <div class="page-title-content">
+                                        <h3>Wallets</h3>
+                                        <p class="mb-2">Welcome to Finance Management</p>
+                                    </div>
+                                </div>
+                                </div><br>
+                                <div class="col-auto">
+                                    <div class="breadcrumbs"><a href="index.html">Home </a> &rArr;
+                                        <span><i class="fa fa-credit-card"></i></span>
+                                        <a href="wallet.html">Wallets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row gy-5">
+                      <div class="col-6">
+                        <div class="p-3 border"id="color" style="border-radius: 20px;">
+                            <h4>City Bank</h3>
+                            <p>₹: 221,478</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border"id="color" style="border-radius: 20px;">
+                            <h4>Visa Card</h3>
+                            <p>₹: 221,478</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border "id="color" style="border-radius: 20px;">
+                            <h4>Visa Card</h3>
+                            <p>₹: 221,478</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border "id="color" style="border-radius: 20px;">
+                            <h4>Cash</h3>
+                            <p>₹: 221,478</p>
+                        </div>
+                      </div>
+                    </div>
+<hr>
+                  
+                        <div class="row gx-5">
+                          <div class="col-12">
+                           <div class="p-3 border bg-white" style="border-radius: 10px;">
+                            <h5 class="mb-0">Add new wallet</h5>
+                            <a href="add-new-account.html">
+                                <i class="fa fa-square"></i>
+                            </a>
+                        </div>
+                          </div>
+                        </div>
+                        
+
+                    <h3>City Bank</h3>
+                    <div class="row gy-5">
+                      <div class="col-6">
+                        <div class="p-3 border bg-white" style="border-radius: 10px;">
+                        <h4 class="mb-0">Total Balance</h3>
+                        <h4>₹: 221,478</h4>
+                        <div class="p-3 border bg-white" style="border-radius: 10px;">
+                        <h4 class="mb-0">Personal Funds</h3>
+                        <h4>₹: 32,500.28</h4>
+                        <div class="p-3 border bg-white" style="border-radius: 10px;">
+                        <h4 class="mb-0">Credit Limits</h3>
+                        <h4>₹: 2500.00</h4>
+                        </div>
+                      </div>              
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 border bg-white" style="border-radius: 10px;">
+                        <h4 class="mb-0">Debit Card</h4><br>
+                        <div class="mb-0"> <i class="fa fa-cc-visa" style="font-size: 30px;"></i> </div>
+                        <h5>1234 <span> 5678 </span><span>7890</span> <span>9876</span></h5>
+                        <!-- <div class="p-2 border bg-white " style="border-radius: 10px;"> -->
+                            <h4>Card Holder Name: Saiful Islam</h4>
+                        <div class="exp"><span>EXP:</span><strong>12/21</strong>
+                        <!-- <h3 class="me-1">Status: Active</h3> -->
+                        <h4 class="me-1">Currency</h4>
+                        <p><srong>₹/Rupees</srong></p>
+                            </div>
+                        <!-- </div> -->
+                    <!-- </div></div> -->
+                    </div>
+                </div>
+            </div>
+        
+        
+        <div id="myChart" style="width:100%; max-width:600px; height:500px;"></div>
+
+            <script>
+                google.charts.load('current',{packages:['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+                
+                function drawChart() {
+                const data = google.visualization.arrayToDataTable([
+                ['Price', 'Size'],[50,3],[50,3],[60,6],
+                [60,8],[70,8],[80,9],[90,9],
+                [100,9],[110,10],[120,11],
+                [130,14],[140,14],[150,15]
+                ]);
+                const options = {
+                title: 'Balance overtime Due to money Shortage last month',
+                hAxis: {title: 'Price List'},
+                vAxis: {title: 'Price in Rupees'},
+                legend: 'none'
+                };
+                const chart = new google.visualization.LineChart(document.getElementById('myChart'));
+                chart.draw(data, options);
+                }
+                </script>
+    <hr>   
+
+                <div class="col-12">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Transaction History</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="transaction-table">
+                                <div class="table-responsive">
+                                    <table class="table mb-0 table-responsive-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Date</th>
+                                                <th>Description</th>
+                                                <th>Amount</th>
+                                                <th>Currency</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span class="table-category-icon"><i class="bg-emerald-500 fa fa-heart"></i>
+                                                        Beauty</span>
+                                                </td>
+                                                <td>
+                                                    12.12.2023
+                                                </td>
+                                                <td>
+                                                    Grocery Items and Beverage soft drinks
+                                                </td>
+                                                <td>
+                                                    -32.20
+                                                </td>
+                                                <td>USD</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="table-category-icon"><i class="bg-teal-500 fa fa-money"></i>
+                                                        Bills &
+                                                        Fees</span>
+                                                </td>
+                                                <td>
+                                                    12.12.2023
+                                                </td>
+                                                <td>
+                                                    Grocery Items and Beverage soft drinks
+                                                </td>
+                                                <td>
+                                                    -32.20
+                                                </td>
+                                                <td>USD</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="table-category-icon"><i class="bg-cyan-500 fa fa-car"></i>
+                                                        Car</span>
+                                                </td>
+                                                <td>
+                                                    12.12.2023
+                                                </td>
+                                                <td>
+                                                    Grocery Items and Beverage soft drinks
+                                                </td>
+                                                <td>
+                                                    -32.20
+                                                </td>
+                                                <td>USD</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="table-category-icon"><i class="bg-sky-500 fa fa-graduation-cap"></i>
+                                                        Education</span>
+                                                </td>
+                                                <td>
+                                                    12.12.2023
+                                                </td>
+                                                <td>
+                                                    Grocery Items and Beverage soft drinks
+                                                </td>
+                                                <td>
+                                                    -32.20
+                                                </td>
+                                                <td>USD</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="table-category-icon"><i class="bg-blue-500 fa fa-play"></i>
+                                                        Entertainment</span>
+                                                </td>
+                                                <td>
+                                                    12.12.2023
+                                                </td>
+                                                <td>
+                                                    Grocery Items and Beverage soft drinks
+                                                </td>
+                                                <td>
+                                                    -32.20
+                                                </td>
+                                                <td>USD</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+        <hr>
+
+        <div class="footer">
+
+            <div class="container" style="width: 100%; margin-left: 0%;">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="copyright">
+                            <p style="font-size: 15px;">© Copyright <span style="color: brown;">Date:</span>
+                                <script>
+                                    var Currentdate = new Date().getDate()
+                                    document.write(Currentdate)
+                                </script>-
+                                <span style="color: brown;">Year :</span>
+                                <script>
+                                    var CurrentYear = new Date().getFullYear()
+                                    document.write(CurrentYear)
+                                </script>
+                                <a href="#">Stock Market</a> I All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <footer class=" content-body">
+                    <div class="container-fluid" style="padding: 2%; display:block;">
+                    <div class="col-lg-9">
+                        <div class="social-icon" style="margin-left: 48%;">
+                            <ul style="list-style-type: square;" >
+                                <a href="#"><i class="fa fa-facebook" style=" width:40px;font-size:  20px;"></i></a>
+                                <a href="#"><i class="fa fa-twitter" style="width: 40px; font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" style=" font-size: 20px;width: 40px;"></i></a>
+                                <a href="#"><i class="fa fa-youtube" style="width: 40px; font-size: 20px;"></i></a>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/chartjs/chartjs.js"></script>
+    <script src="./js/plugins/chartjs-line-balance-overtime.js"></script>
+    <script src="./js/scripts.js"></script>
+</div>   
+
+</body>
+
+</html>

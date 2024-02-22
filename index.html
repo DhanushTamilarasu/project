@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard: Personal Finance Management</title>
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="icon_logo.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/templatemo-topic-listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script></head>
+
+<body class="dashboard">
+        <div class="sidenav"> 
+            <div class="brand-logo"><a class="full-logo" href="index.html"><img src="icon_logo.jpeg" alt="" width="25px" style="border-radius: 30px;"></a>
+            </div>
+            <a href="index.html" target="_blank">
+            <span>
+                <i class="fa fa-home"></i>
+            </span>
+
+            <a href="wallet.html"><span>
+                <i class="	fa fa-credit-card"></i>
+            </span>
+
+            <a href="budgets.html">
+            <span> <i class="fa fa-money"></i></span>
+            </a>
+
+            <a href="goals.html">
+            <span><i class="fa fa-bullseye"></i></span>
+            </a>
+
+            <a href="profile.html">
+            <span><i class="fa fa-user"></i></span>
+            </a>
+                        
+            <a href="analytics.html">
+            <span><i class="fa fa-line-chart"></i></span>
+            </a>
+                        
+            <a href="support.html">
+            <span><i class="fa fa-handshake-o"></i></span>
+            </a>          
+                        
+            <a href="affiliates.html">
+            <span> <i class="fa fa-link"></i></span>
+            <!-- <span class="nav-text">Affiliates</span> -->
+            </a>
+                        
+            <a href="settings.html">
+            <span><i class="fa fa-cogs"></i></span>
+            </a>            
+          </div>
+          <div class="container" style="margin-left: 6%;">
+            <div class="row">
+                <div class="topnav"> 
+                    <div class="ico"><br>
+                        <a href="index.css"><i class="fa fa-user" style="width: 40px; font-size:25px; color: rgb(7, 7, 7);"></i></a>
+                        <i class="fa fa-bell-o" style="width: 50px; font-size:25px;color:rgb(7, 7, 7)"></i>                       
+                        <img src="download.jpeg" alt="" onclick="myFunction()" style="font-size: 25px; width: 30px;margin-top: -13px;  border-radius: 25px;">
+                    </div>
+                    <div class="search-container">
+                        <form action="">
+                          <input type="text" placeholder="Search.." name="search" style="border-style: groove;">
+                        <button type="submit" style="width: 40px;"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+             
+        <div class="content-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-title">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-4">
+                                    <div class="page-title-content">
+                                        <h3>Dashboard</h3>
+                                        <p class="mb-2">Welcome to Finance Management</p>
+                                    </div>
+                                </div><br><hr>
+                                <div class="col-auto">
+                                    <div class="breadcrumbs"><a href="index.html">Home</a> &rArr;
+                                        <span><i class="fa fa-home"></i></span>
+                                        <a href="#">Dashboard</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<hr>
+
+                <div class="row gy-5">
+                      <div class="col-6">
+                        <div class="p-3 border"id="color" style="border-radius: 20px;"><h5>Total Balance</h5>
+                            <h4>Rp: 432568</h3>
+                            <p>
+                                <span class="text-success"><i class="fi fi-rr-arrow-trend-up"></i>2.47%</span>
+                                Last month ₹: 24,478</>
+                            </p></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border"id="color" style="border-radius: 20px;"><h5>Total Period Change</h5>
+                            <h4>Rp: 245860</h3>
+                            <p>
+                                <span class="text-success"><i class="fa fa-arrow"></i>2.47%</span>
+                                Last month <str ng>₹: 24,478</>
+                            </p></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border"id="color" style="border-radius: 20px;"><h5>Total Period Expenses</h5>
+                            <h4>Rp: 2535</h3>
+                            <p>
+                                <span class="text-danger"><i class="fa fa-arrow"></i>2.47%</span>
+                                Last month <stong>₹: 24,478</trong>
+                            </p></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="p-3 border "id="color" style="border-radius: 20px;"><h5>Total Period Income</h5>
+                            <h4>Rp: 2256</h3>
+                            <p>
+                                <span class="text-success"><i class="fa fa-arrow"></i>2.47%</span>
+                                Last month <strng>₹: 24,478</strng>
+                            </p></div>
+                      </div>
+                    </div>
+
+                  <hr>
+
+
+                  <div class="col-xxl-8 col-xl-8">
+                        <div class="card">
+                            <div class="card-header balance-trend">
+                                <h4 class="card-title">Balace Trends <br> <span>₹: 221,478</span></h4>
+                                <div class="trend-stats">
+                                    <p class="mb-0">Last Month</p>
+                                    <span class="text-success">
+                                        <i class="fi fi-rr-arrow-trend-up"></i>
+                                        12.25%
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="myChart" style="width:100%; max-width:900px"></canvas>
+
+                                <script>
+                                const xValues = [50,60,70,80,90,100,110,120,130,140,150];
+                                const yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+                                new Chart("myChart", {
+                                type: "line",
+                                data: {
+                                    labels: xValues,
+                                    datasets: [{
+                                    fill: false,
+                                    lineTension: 0,
+                                    backgroundColor: "rgba(0,0,255,1.0)",
+                                    borderColor: "rgba(0,0,255,0.1)",
+                                    data: yValues
+                                    }]
+                                },
+                                options: {
+                                    legend: {display: false},
+                                    scales: {
+                                    yAxes: [{ticks: {min: 6, max:16}}],
+                                    }
+                                }
+                                });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class=" col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Monthly Expenses Breakdown</h4>
+                            </div>
+                                <div class="progress-bar" style=" border-radius: 10px; background-image: 
+                                linear-gradient(to right,green,blue,red,skyblue,grey,black, yellow); 
+                                width: 100%; height: 10px;"></div>
+                    
+                            <div class="card-body  text-black">
+                                <div class="progress-stacked">
+                                    <div class="progress" style="width: 90%; height: 10%;">
+                                        <div class="progress-bar"></div>
+                                            <p class="mb-0" style="font-size: 16px;"><i class="fa fa-circle text-success"style="font-size: 16px;"></i>Food</p>
+                                            <h5 class="mb-0"style="font-size: 16px;"><span>₹ 11200</span></h5><br>
+                                    </div>
+                                    <div class="progress" style="width: 60%; height: 10%;">
+                                        <div class="progress-bar"></div>
+                                        <p class="mb-0"style="font-size: 16px;"><i class="fa fa-circle text-primary"></i>Transport</p>
+                                            <h5 class="mb-0" style="font-size: 16px;"><span>₹6200</span></h5>
+                                    </div>
+                                    <div class="progress" style="width: 40%; height: 10%;">
+                                        <div class="progress-bar bg-yellow-500"></div>
+                                        <p class="mb-0"style="font-size: 16px;"><i class="fa fa-circle text-danger"></i>Health</p>
+                                            <h5 class="mb-0"style="font-size: 16px;"><span>₹: 700</span></h5>
+                                    </div>
+                                    <div class="progress" style="width: 50%; height: 10%;">
+                                        <div class="progress-bar bg-white"></div>
+                                        <p class="mb-0"style="font-size: 16px;"><i class="fa fa-circle text-info"></i>Education</p>
+                                            <h5 class="mb-0"style="font-size: 16px;"><span>₹: 12200</span></h5>
+                                    </div>
+                                    <div class="progress" style="width: 50%; height: 10%;">
+                                        <div class="progress-bar bg-green"></div>
+                                        <p class="mb-0" style="font-size: 16px;"><i class="fa fa-circle text-green"></i>Clothes</p>
+                                            <h5 class="mb-0" style="font-size: 16px;"><span>₹:2000</span></h5>
+                                    </div>
+                                    <div class="progress" style="width: 30%; height: 10%;">
+                                        <div class="progress-bar bg-cyan-500"></div>
+                                        <p class="mb-0" style="font-size: 16px;"><i class="fa fa-circle text-black" style="white-space: pre;"></i>Pets</p>
+                                        <h5 class="mb-0" style="font-size: 16px;"><span>₹: 500</span></h5>
+                                    </div>
+                                    <div class="progress" style="width: 40%; height: 10%;">
+                                        <div class="progress-bar bg-stone-500"></div>
+                                        <p class="mb-0" style="font-size: 16px;"><i class="fa fa-circle text-warning"></i>Entertainment</p>
+                                            <h5 class="mb-0" style="font-size: 16px;"><span>₹: 900</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <h1> Weekly Expenses</h1>
+                        <div class="row gx-5">
+                          <div class="col">
+                           <div class="p-3 border bg-light">
+                            <div id="chartContainer" style="height: 380px; width: 100%;">
+                                <script type="text/javascript">
+                                    window.onload = function () {
+                                      var chart = new CanvasJS.Chart("chartContainer",
+                                      {
+                                        title:{
+                                        text: "weekly Expenses"
+                                        },
+                                        data: [
+                                        {
+                                          bevelEnabled: true,
+                                          type: "column",
+                                          dataPoints: [
+                                          { x: 10, y: 71 },
+                                          { x: 20, y: 55},
+                                          { x: 30, y: 50 },
+                                          { x: 40, y: 65 },
+                                          { x: 50, y: 95 },
+                                          { x: 60, y: 68 },
+                                          { x: 70, y: 28 },
+                                          { x: 80, y: 34 },
+                                          { x: 90, y: 14}
+                                          ]
+                                        }
+                                        ]
+                                      });
+                                  
+                                      chart.render();
+                                    }
+                                    </script>
+                                   <script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+                        </div>
+                    </div>
+                    </div>
+                          <div class="col">
+                            <div class="p-3 border bg-light">
+                                <h2>Payment History</h2>
+                                <pre> Electricity bill           + ₹450.
+                                    
+ 10 January 2024           <span class="badge badge-secondary" style="background-color: green;">Paid</span></h2>
+                                </pre> 
+                                <pre> Grocery bill           - ₹450.
+
+ 10 January 2024        <span class="badge badge-secondary" style="background-color: rgb(128, 0, 0);">UnPaid</span></h2>
+                                </pre> 
+                                <pre> other bills           - ₹1250.
+
+ 10 January 2024        <span class="badge badge-secondary" style="background-color: rgb(244, 220, 6);">due</span></h2>
+                                </pre> 
+                            </div>
+
+                          </div>
+                        </div>
+
+<hr>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Monthly Budgets</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="budget-content">
+                                    <ul>
+                                        <li>
+                                            <div class="budget-info flex-grow-2 me-3">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <h5 class="mb-1"><i class="bg-green-500 fi fi-rr-carrot"></i>Grocery
+                                                        Stores</h5>
+                                                    <p class="mb-0">75 / 100</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-green-500" role="progressbar" style="width: 75%;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="budget-info flex-grow-2 me-3">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <h5 class="mb-1"><i class="bg-cyan-500 fi fi-rr-bus"></i>Transportation
+                                                    </h5>
+                                                    <p class="mb-0">25 / 100</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-cyan-500" role="progressbar" style="width: 25%;"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="budget-info flex-grow-2 me-3">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <h5 class="mb-1"><i class="bg-sky-500 fa fa-cat"></i>Pets</h5>
+                                                    <p class="mb-0">50 / 100</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-sky-500" role="progressbar" style="width: 50%;"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="budget-info flex-grow-2 me-3">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <h5 class="mb-1"><i class="bg-indigo-500 fi fi-rr-graduation-cap"></i>Education</h5>
+                                                    <p class="mb-0">45 / 100</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-indigo-500" role="progressbar" style="width: 45%;"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="budget-info flex-grow-2 me-3">
+                                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                                    <h5 class="mb-1"><i class="bg-violet-500 fi fi-rr-shirt-long-sleeve"></i>Clothes
+                                                    </h5>
+                                                    <p class="mb-0">35 / 100</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-violet-500" role="progressbar" style="width: 35%;"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <hr>
+                                <h4 class="card-title" >Transaction History</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="transaction-table">
+                                    <div class="table-responsive">
+                                        <table class="table mb-0 table-responsive-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th>Category</th>
+                                                    <th>Date</th>
+                                                    <th>Description</th>
+                                                    <th>Amount</th>
+                                                    <th>Currency</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span class="table-category-icon"><i class="bg-emerald-500 fa fa-heart"></i>
+                                                            Beauty</span>
+                                                    </td>
+                                                    <td>
+                                                        12.12.2023
+                                                    </td>
+                                                    <td>
+                                                        Grocery Items
+                                                    </td>
+                                                    <td>
+                                                        32.20
+                                                    </td>
+                                                    <td>USD</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="table-category-icon"><i class="bg-teal-500 fa fa-money"></i> Bills &
+                                                            Fees</span>
+                                                    </td>
+                                                    <td>
+                                                        12.12.2023
+                                                    </td>
+                                                    <td>
+                                                        Grocery Items
+                                                    </td>
+                                                    <td>
+                                                        32.20
+                                                    </td>
+                                                    <td>USD</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="table-category-icon"><i class="bg-cyan-500 fa fa-car"></i> Car</span>
+                                                    </td>
+                                                    <td>
+                                                        12.12.2023
+                                                    </td>
+                                                    <td>
+                                                        Grocery Items
+                                                    </td>
+                                                    <td>
+                                                        32.20
+                                                    </td>
+                                                    <td>USD</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="table-category-icon"><i class="bg-sky-500 fa fa-graduation-cap"></i>
+                                                            Education</span>
+                                                    </td>
+                                                    <td>
+                                                        12.12.2023
+                                                    </td>
+                                                    <td>
+                                                        Grocery Items 
+                                                    </td>
+                                                    <td>
+                                                        32.20
+                                                    </td>
+                                                    <td>USD</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="table-category-icon"><i class="bg-blue-500 fa fa-play"></i>
+                                                            Entertainment</span>
+                                                    </td>
+                                                    <td>
+                                                        12.12.2023
+                                                    </td>
+                                                    <td>
+                                                        Grocery Items
+                                                    </td>
+                                                    <td>
+                                                        32.20
+                                                    </td>
+                                                    <td>USD</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+        <hr>
+
+
+        <div class="footer">
+
+            <div class="container" style="width: 100%; margin-left: 8%;">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="copyright">
+                            <p style="font-size: 15px;">© Copyright <span style="color: brown;">Date:</span>
+                                <script>
+                                    var Currentdate = new Date().getDate()
+                                    document.write(Currentdate)
+                                </script>-
+                                <span style="color: brown;">Year :</span>
+                                <script>
+                                    var CurrentYear = new Date().getFullYear()
+                                    document.write(CurrentYear)
+                                </script>
+                                <a href="#">Stock Market</a> I All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <footer class=" content-body">
+                    <div class="container-fluid" style="padding: 2%; display:block;">
+                    <div class="col-lg-9">
+                        <div class="social-icon" style="margin-left: 48%;">
+                            <ul style="list-style-type: square;" >
+                                <a href="#"><i class="fa fa-facebook" style=" width:40px;font-size:  20px;"></i></a>
+                                <a href="#"><i class="fa fa-twitter" style="width: 40px; font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" style=" font-size: 20px;width: 40px;"></i></a>
+                                <a href="#"><i class="fa fa-youtube" style="width: 40px; font-size: 20px;"></i></a>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    </footer>
+                </div>
+            </div>
+        </div> 
+    </body>
+    </html>
